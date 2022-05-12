@@ -1,5 +1,5 @@
 ---
-title: "Les structures de données expliquées avec des cartes"
+title: "Structure de données"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
