@@ -1,0 +1,10 @@
+digraph "linkedList03" {
+graph ["rankdir"="LR","compound"="true","ranksep"="1.0","nodesep"="1.0"]
+"/" ["label"="<_C>LinkedList|{size|3}|{head|<head_head>}","style"="filled","fillcolor"="white","shape"="record"]
+"/head" ["label"="<_C>Element|{value|\"1\"}|{next|<next_next>}","style"="filled","fillcolor"="white","shape"="record"]
+"/head/next" ["label"="<_C>Element|{value|\"2\"}|{next|<next_next>}","style"="filled","fillcolor"="white","shape"="record"]
+"/head/next/next" ["label"="<_C>Element|{value|\"3\"}|{next|null}","style"="filled","fillcolor"="white","shape"="record"]
+"/":"head_head":c -> "/head":"_C" ["tailclip"="false","arrowtail"="dot","dir"="both","label"=""]
+"/head":"next_next":c -> "/head/next":"_C" ["tailclip"="false","arrowtail"="dot","dir"="both","label"=""]
+"/head/next":"next_next":c -> "/head/next/next":"_C" ["tailclip"="false","arrowtail"="dot","dir"="both","label"=""]
+}
