@@ -37,7 +37,7 @@ save_dir
 
 cd "$root_dir"
 
-dirs=$(find . -maxdepth 1 -type d | tail -n+2 | grep -v "[.]/[.]" | uniq)
+dirs=$(find . -type d | tail -n+2 | grep -v "[.]/[.]" | uniq)
 
 dirs="$dirs $root_dir"
 

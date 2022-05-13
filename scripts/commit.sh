@@ -33,6 +33,7 @@ cd "$root_dir"
 
 sh "$scripts_dir"/run_commands_foreach_repo.sh "git add ."
 sh "$scripts_dir"/run_commands_foreach_repo.sh "git commit -a -m\"$1\""
+sh "$scripts_dir"/push.sh
 
 restore_dir
 
