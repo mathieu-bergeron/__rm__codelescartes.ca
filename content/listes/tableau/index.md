@@ -1,6 +1,6 @@
 ---
-title: "Listes par tableaux"
+title: "Liste par tableau"
 weight: 52
 ---
 
-# Listes par tableaux
+# Liste par tableau
