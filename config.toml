@@ -2,6 +2,8 @@ baseURL = 'https://codelescartes.ca/'
 title = 'Code les cartes!'
 theme = 'hugo-book'
 
+staticDir = ['static', 'shared']
+
 defaultContentLanguage = "fr"
 
 # Book configuration
