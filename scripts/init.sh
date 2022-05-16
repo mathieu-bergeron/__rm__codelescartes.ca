@@ -36,10 +36,12 @@ git clone git@github.com:mathieu-bergeron/tutoriels.ntro.ca   extra/tutoriels
 git clone git@github.com:mathieu-bergeron/ateliers.ntro.ca    extra/ateliers
 git clone git@github.com:mathieu-bergeron/misc.ntro.ca        extra/misc
 
+mkdir private
+
 # PRIVATE
-git clone git@github.com:mathieu-bergeron/code.ntro.ca        extra/_code
-git clone git@github.com:mathieu-bergeron/examens.ntro.ca     extra/_examens
-git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    extra/_sessions
+git clone git@github.com:mathieu-bergeron/code.ntro.ca        private/code
+git clone git@github.com:mathieu-bergeron/examens.ntro.ca     private/examens
+git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    private/sessions
 
 restore_dir
 
