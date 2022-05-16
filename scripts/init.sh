@@ -35,11 +35,11 @@ git clone git@github.com:mathieu-bergeron/theorie.ntro.ca     extra/theorie
 git clone git@github.com:mathieu-bergeron/tutoriels.ntro.ca   extra/tutoriels
 git clone git@github.com:mathieu-bergeron/ateliers.ntro.ca    extra/ateliers
 git clone git@github.com:mathieu-bergeron/misc.ntro.ca        extra/misc
+git clone git@github.com:mathieu-bergeron/code.ntro.ca        extra/code
 
 mkdir private
 
 # PRIVATE
-git clone git@github.com:mathieu-bergeron/code.ntro.ca        private/code
 git clone git@github.com:mathieu-bergeron/examens.ntro.ca     private/examens
 git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    private/sessions
 
