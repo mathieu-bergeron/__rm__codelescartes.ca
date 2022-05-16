@@ -21,8 +21,8 @@ enableGitInfo = true
     weight = 1
     languageName = "Français"
     languageCode = 'fr-ca'
-    contentDir = 'chapitres'
-    staticDir = ['static', 'contenu']
+    contentDir = 'main'
+    staticDir = ['extra', 'static']
 
 
 [menu]
