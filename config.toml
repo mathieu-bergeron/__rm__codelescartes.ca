@@ -2,6 +2,7 @@ baseURL = 'https://codelescartes.ca/'
 title = 'Code les cartes!'
 theme = 'hugo-book'
 
+
 defaultContentLanguage = "fr"
 
 # Book configuration
@@ -32,7 +33,13 @@ enableGitInfo = true
   #url = "https://github.com/alex-shpak/hugo-book"
   #weight = 10
 
+
 [params]
+
+  # Ntro.ca
+  extraDir = 'extra'
+  extras = ['ateliers', '_code', '_examens', 'misc', '_sessions', 'theorie', 'tutoriels']
+
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'auto'
