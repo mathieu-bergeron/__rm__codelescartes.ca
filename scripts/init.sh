@@ -37,9 +37,9 @@ git clone git@github.com:mathieu-bergeron/ateliers.ntro.ca    extra/ateliers
 git clone git@github.com:mathieu-bergeron/misc.ntro.ca        extra/misc
 
 # PRIVATE
-git clone git@github.com:mathieu-bergeron/code.ntro.ca        extra/code
-git clone git@github.com:mathieu-bergeron/examens.ntro.ca     extra/examens
-git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    extra/sessions
+git clone git@github.com:mathieu-bergeron/code.ntro.ca        extra/_code
+git clone git@github.com:mathieu-bergeron/examens.ntro.ca     extra/_examens
+git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    extra/_sessions
 
 restore_dir
 
