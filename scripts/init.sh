@@ -30,13 +30,16 @@ git clone git@github.com:mathieu-bergeron/hugo-book              themes/hugo-boo
 
 mkdir extra
 
+# PUBLIC
 git clone git@github.com:mathieu-bergeron/theorie.ntro.ca     extra/theorie
 git clone git@github.com:mathieu-bergeron/tutoriels.ntro.ca   extra/tutoriels
 git clone git@github.com:mathieu-bergeron/ateliers.ntro.ca    extra/ateliers
-git clone git@github.com:mathieu-bergeron/examens.ntro.ca     extra/examens
-git clone git@github.com:mathieu-bergeron/code.ntro.ca        extra/code
-git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    extra/sessions
 git clone git@github.com:mathieu-bergeron/misc.ntro.ca        extra/misc
+
+# PRIVATE
+git clone git@github.com:mathieu-bergeron/code.ntro.ca        extra/code
+git clone git@github.com:mathieu-bergeron/examens.ntro.ca     extra/examens
+git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    extra/sessions
 
 restore_dir
 
