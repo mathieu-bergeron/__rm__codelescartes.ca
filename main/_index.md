@@ -11,4 +11,6 @@ bookCollapseSection: true
 
 # Apprendre à programmer efficacement avec des cartes à jouer
 
-{{% embed "/private/_code/test.md" %}}
+{{% embed "/extra/theorie/index.md" %}}
+
+{{% embed "/private/code/test.md" %}}
