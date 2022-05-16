@@ -5,7 +5,16 @@ weight: 42
 
 # Efficacité en temps
 
-{{% embed "/extra/theorie/efficacite/temps/01/index.md" %}}
+{{% embed 
+    src="/extra/theorie/efficacite/temps/01/index.md" 
+    skip-videos="true" 
+    summary-only="false"
+    title-level="1"
+    %}}
 
-
-{{% embed "/extra/theorie/efficacite/temps/02/index.md" %}}
+{{% embed 
+    src="/extra/theorie/efficacite/temps/02/index.md" 
+    skip-videos="true" 
+    summary-only="false"
+    title-level="1"
+    %}}
