@@ -10,5 +10,3 @@ bookCollapseSection: true
 ---
 
 # Apprendre à programmer efficacement avec des cartes à jouer
-
-{{% embed src="/extra/theorie/_index.md" %}}

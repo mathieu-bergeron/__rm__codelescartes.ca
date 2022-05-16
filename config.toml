@@ -2,6 +2,7 @@ baseURL = 'https://codelescartes.ca/'
 title = 'Code les cartes!'
 theme = 'hugo-book'
 
+staticDir = ['extra', 'static']
 
 defaultContentLanguage = "fr"
 
@@ -23,8 +24,6 @@ enableGitInfo = true
     languageName = "Français"
     languageCode = 'fr-ca'
     contentDir = 'main'
-    staticDir = ['extra', 'static']
-
 
 [menu]
 # [[menu.before]]
