@@ -5,6 +5,10 @@ weight: 42
 
 # Efficacité en temps
 
+{{% data "theorie.efficacite.temps.intro.test" %}}
+
+{{ .Site.Data.theorie.efficacite.temps.intro.test }}
+
 {{% embed 
     src="01/index.md" 
     skip-videos="true" 

@@ -1,0 +1,24 @@
+variables:
+  v01: asdf
+title: Efficacité en temps
+sections:
+  - title: asd
+    paragraphs:
+      short: court
+      long:
+        |
+          long 
+          long
+          long
+test:
+  | 
+    1. un
+    1. test *adsf* **adf**
+        ```java
+        public class Test {
+          public static final int TEST = 1;
+
+        }
+        ```
+    1. asdf
+
