@@ -1,8 +1,6 @@
-title: Efficacité en temps
+title: Section 1
 sections:
-  - embed: .section01
-
-  - title: section 2
+  - title: sous-section 1
     content:
       | 
         asdf
@@ -11,7 +9,7 @@ sections:
 
         asdf
 
-  - title: section 3
+  - title: sous-section 2
     content:
       | 
         asdf 
@@ -19,6 +17,3 @@ sections:
         asdf
 
         asdf
-
-embed: theorie.efficacite.temps.intro.test
-
