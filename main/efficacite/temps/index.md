@@ -13,7 +13,7 @@ weight: 42
     %}}
 
 {{% embed 
-    src="/extra/theorie/efficacite/temps/02/index.md" 
+    src="02/index.md" 
     skip-videos="true" 
     summary-only="false"
     title-level="1"
