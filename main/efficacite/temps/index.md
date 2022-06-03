@@ -6,7 +6,7 @@ weight: 42
 # Efficacité en temps
 
 {{% embed 
-    src="/extra/theorie/efficacite/temps/01/index.md" 
+    src="01/index.md" 
     skip-videos="true" 
     summary-only="false"
     title-level="1"
