@@ -28,20 +28,19 @@ cd "$root_dir"
 mkdir themes
 git clone git@github.com:mathieu-bergeron/hugo-book              themes/hugo-book
 
-mkdir extra
+mkdir data
 
-# PUBLIC
-git clone git@github.com:mathieu-bergeron/theorie.ntro.ca     extra/theorie
-git clone git@github.com:mathieu-bergeron/tutoriels.ntro.ca   extra/tutoriels
-git clone git@github.com:mathieu-bergeron/ateliers.ntro.ca    extra/ateliers
-git clone git@github.com:mathieu-bergeron/misc.ntro.ca        extra/misc
-git clone git@github.com:mathieu-bergeron/code.ntro.ca        extra/code
+# public data
+git clone git@github.com:mathieu-bergeron/theorie.ntro.ca     data/theorie
+git clone git@github.com:mathieu-bergeron/tutoriels.ntro.ca   data/tutoriels
+git clone git@github.com:mathieu-bergeron/ateliers.ntro.ca    data/ateliers
+git clone git@github.com:mathieu-bergeron/misc.ntro.ca        data/misc
+git clone git@github.com:mathieu-bergeron/code.ntro.ca        data/code
 
-mkdir private
+# private data
+git clone git@github.com:mathieu-bergeron/examens.ntro.ca     data/examens
 
-# PRIVATE
-git clone git@github.com:mathieu-bergeron/examens.ntro.ca     private/examens
-git clone git@github.com:mathieu-bergeron/sessions.ntro.ca    private/sessions
+# private documents and notes
+git clone git@github.com:mathieu-bergeron/private.codelescartes.ca private
 
 restore_dir
-
