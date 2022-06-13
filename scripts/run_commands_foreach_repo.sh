@@ -43,7 +43,24 @@ dirs="$dirs $root_dir"
 
 for dir in $dirs; 
 do
-    if [ -e "$dir"/.git ];then
+    grep "/$dir" .gitignore
+    should_ignore=$?
+
+    test -e "$dir/.git"
+    is_git_repo=$?
+
+    if [ $should_ignore -ne 0 ]; then
+        echo "should_ignore: $dir" 
+    fi
+
+    if [ $is_git_repo -ne 0 ]; then
+        echo "is_git_repo: $dir" 
+    fi
+
+
+
+
+    if [ $is_git_repo -a !$should_ignore ];then
         cd $dir
 
         echo ""
