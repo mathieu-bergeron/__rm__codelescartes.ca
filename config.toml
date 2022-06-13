@@ -2,6 +2,7 @@ baseURL = 'https://codelescartes.ca/'
 title = 'Code les cartes!'
 theme = 'hugo-book'
 
+publishDir = 'public'
 staticDir = ['extra', 'static']
 
 defaultContentLanguage = "fr"

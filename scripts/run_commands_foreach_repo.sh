@@ -37,30 +37,18 @@ save_dir
 
 cd "$root_dir"
 
+publish_dir=$(cat config.toml | grep publishDir | sed "s/[^']*'//"  | sed "s/'.*$//")
+
 dirs=$(find . -type d | tail -n+2 | grep -v "[.]/[.]" | uniq)
 
 dirs="$dirs $root_dir"
 
 for dir in $dirs; 
 do
-    grep "/$dir" .gitignore
-    should_ignore=$?
+    dir=$(echo $dir | sed "s%[.]/%%")
+    this_root_dir=$(echo $dir | sed "s%/.*$%%")
 
-    test -e "$dir/.git"
-    is_git_repo=$?
-
-    if [ $should_ignore -ne 0 ]; then
-        echo "should_ignore: $dir" 
-    fi
-
-    if [ $is_git_repo -ne 0 ]; then
-        echo "is_git_repo: $dir" 
-    fi
-
-
-
-
-    if [ $is_git_repo -a !$should_ignore ];then
+    if [ -e "$dir/.git" -a "$this_root_dir" != "$publish_dir" ];then
         cd $dir
 
         echo ""
