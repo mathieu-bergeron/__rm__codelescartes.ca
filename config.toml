@@ -3,7 +3,9 @@ title = 'Code les cartes!'
 theme = 'hugo-book'
 
 publishDir = 'public'
-staticDir = ['extra', 'static']
+staticDir = [ 'static_codelescartes.ca', 'static_ntro.ca' ]
+
+ignoreFiles = [ '.git/*' ]
 
 defaultContentLanguage = "fr"
 
@@ -37,8 +39,8 @@ enableGitInfo = true
 [params]
 
   # Ntro.ca
-  extraDir = 'extra'
-  extras = ['ateliers', '_code', '_examens', 'misc', '_sessions', 'theorie', 'tutoriels']
+  #extraDir = 'extra'
+  #extras = ['ateliers', '_code', '_examens', 'misc', '_sessions', 'theorie', 'tutoriels']
 
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
