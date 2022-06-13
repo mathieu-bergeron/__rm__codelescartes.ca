@@ -30,17 +30,27 @@ git clone git@github.com:mathieu-bergeron/hugo-book              themes/hugo-boo
 
 mkdir data
 
-# public data
+# PUBLIC
+
+## public data
 git clone git@github.com:mathieu-bergeron/theorie.ntro.ca     data/theorie
 git clone git@github.com:mathieu-bergeron/tutoriels.ntro.ca   data/tutoriels
 git clone git@github.com:mathieu-bergeron/ateliers.ntro.ca    data/ateliers
 git clone git@github.com:mathieu-bergeron/misc.ntro.ca        data/misc
 git clone git@github.com:mathieu-bergeron/code.ntro.ca        data/code
 
+# public videos and images
+git clone git@github.com:mathieu-bergeron/videos.ntro.ca      static/videos
+git clone git@github.com:mathieu-bergeron/images.ntro.ca      static/images
+
+## PRIVATE
+
 # private data
 git clone git@github.com:mathieu-bergeron/examens.ntro.ca     data/examens
 
 # private documents and notes
 git clone git@github.com:mathieu-bergeron/private.codelescartes.ca private
+
+
 
 restore_dir
